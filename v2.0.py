@@ -151,8 +151,10 @@ S = readtxt("data.txt")            # Pyramid from text file "data.txt"
 S = sqn2Matrix(S)                  # Transforming 1d array of numbers to a pyramid like shape,
                                    # which is a lower triangular matrix
 
+SUM = pathFinder(S)                                                  
+t1 = time.time()                  
 
-print("Greatest sum excluding prime numbers is",pathFinder(S))               
-                                   
-t1 = time.time()                                     
-print("Time: ", t1 - t0, "seconds")
+print("\nTime: ", t1 - t0, "seconds\n")
+print("GREATEST SUM:", SUM)
+
+
