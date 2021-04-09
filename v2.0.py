@@ -152,7 +152,7 @@ S = sqn2Matrix(S)                  # Transforming 1d array of numbers to a pyram
                                    # which is a lower triangular matrix
 
 
-print("Greatest sum excluding prime nummbers is",pathFinder(S))               
+print("Greatest sum excluding prime numbers is",pathFinder(S))               
                                    
 t1 = time.time()                                     
 print("Time: ", t1 - t0, "seconds")
