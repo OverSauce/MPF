@@ -155,6 +155,6 @@ SUM = pathFinder(S)
 t1 = time.time()                  
 
 print("\nTime: ", t1 - t0, "seconds\n")
-print("GREATEST SUM:", SUM)
+print("MAXIMUM SUM:", SUM)
 
 
